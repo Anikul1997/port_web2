@@ -1,0 +1,20 @@
+.nm{
+    color: orangered;
+}
+.half-side{
+    width: 35%;
+    float: left;
+    margin: 5%;
+    margin-right: 0px;
+}
+.image1{
+    width: 80%;
+    margin-right:20% ;
+}
+.top-banner{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    width: ;
+}
