@@ -1,20 +1,78 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
 .nm{
     color: orangered;
 }
 .half-side{
-    width: 35%;
+    width: 40%;
     float: left;
-    margin: 5%;
-    margin-right: 0px;
+    margin-left: 5%;
+    padding: 2%;
 }
-.image1{
-    width: 80%;
-    margin-right:20% ;
+.half-side img{
+    width: 80% ;
 }
 .top-banner{
     background-image: url("image/header-bg.png");
     background-repeat: no-repeat;
+    background-position: center;
 }
 section{
-    width: ;
+    height: 900px;
+}
+.link-button{
+    text-decoration:none;
+    background-image:linear-gradient(45deg, red,blue);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: 900;
+}
+.dream-area{
+    background-image: url("image/biography-bg.png");
+    background-repeat:no-repeat;
+}
+p{
+    color: teal;
+}
+.latest img{
+    width: 22%;
+    float: left;
+    margin: 5% ;
+}
+h2{
+    color: slateblue;
+    text-align: center;
+}
+.work-area{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.last{
+    text-align: center;
+}
+.foot{
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.end{
+    font: 30px;
+    border: solid red;
+    text-align: center;
+    background-color:lightcoral;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10px;
+}
+footer p{
+    color: lime;
+    margin-top: 15%;
+    text-align: center;
 }
